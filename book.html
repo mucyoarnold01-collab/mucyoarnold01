@@ -28,20 +28,23 @@ Distance and final price will be confirmed after review.
 <form>
   <p>
     <label>Pickup Location:</label><br>
-    <input type="text">
+    <input type="text" id="pickup">
+
   </p>
 
   <p>
     <label>Delivery Location:</label><br>
-    <input type="text">
+    <<input type="text" id="delivery">
+
   </p>
 
   <p>
     <label>Truck Type:</label><br>
-    <select>
-      <option>HOWO</option>
-      <option>Shacman</option>
-    </select>
+   <select id="truck">
+  <option>HOWO</option>
+  <option>Shacman</option>
+</select>
+
   </p>
 
   <p>
@@ -54,10 +57,14 @@ Distance and final price will be confirmed after review.
 
   <p>
     <label>Phone (WhatsApp):</label><br>
-    <input type="tel">
+    <input type="tel" id="phone">
+
   </p>
 
-  <button type="button" onclick="bookingSubmitted()">Submit Booking</button>
+  <button type="button" onclick="sendToWhatsApp()">
+  Submit Booking
+</button>
+
 
 </form>
 <script src="script.js"></script>
