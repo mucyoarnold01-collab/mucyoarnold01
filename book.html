@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Book a Truck</title>
+  <title>Book a Truck - IZERE Logistics</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>Book a Truck</h1>
 
-<p>Please provide booking details. Final price is confirmed after review.</p>
+<p>Please provide your transport details.  
+Final price will be confirmed after review.</p>
+
+<form>
+  <p>
+    <label>Pickup Location:</label><br>
+    <input type="text">
+  </p>
+
+  <p>
+    <label>Delivery Location:</label><br>
+    <input type="text">
+  </p>
+
+  <p>
+    <label>Estimated Distance (KM):</label><br>
+    <input type="number">
+  </p>
+
+  <p>
+    <label>Truck Type:</label><br>
+    <select>
+      <option>HOWO</option>
+      <option>Shacman</option>
+    </select>
+  </p>
+
+  <p>
+    <label>Container Size:</label><br>
+    <select>
+      <option>20 FT</option>
+      <option>40 FT</option>
+    </select>
+  </p>
+
+  <p>
+    <label>Phone (WhatsApp):</label><br>
+    <input type="tel">
+  </p>
+
+  <button type="submit">Submit Booking</button>
+</form>
 
 </body>
 </html>
+
