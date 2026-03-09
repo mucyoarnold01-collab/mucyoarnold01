@@ -18,8 +18,8 @@ function sendToWhatsApp() {
     "Container Size: " + container + "%0A" +
     "Customer Phone: " + phone;
 
-  var whatsappNumber = "250700000000"; // CHANGE THIS LATER
-
+  var whatsappNumber = "250792091320";
   var url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
   window.open(url, "_blank");
 }
